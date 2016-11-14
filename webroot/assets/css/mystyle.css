@@ -1,0 +1,64 @@
+html {
+    min-height: 100%
+    position:relative;
+}
+body {
+    background-color: #eeffe6;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+
+.navbar {
+    background-color: #ddffcc;
+}
+
+.mytable {
+    border-radius: 1em 1em 0 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #fff;
+}
+
+.mytable td {
+    padding: 0;
+}
+
+
+.mytable th {
+    border-radius: 1em 1em 0 0;
+    padding: 3em 2em;
+    background: rgb(37,192,84);
+    text-transform: uppercase;
+}
+
+.mytable td {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1em;
+    padding: .5em 1em;
+    text-align: center;
+}
+
+.row_colour {
+    background: rgb(254,233,251);
+}
+
+
+
+
+.taken {
+    background: rgb(244,74,96);
+}
+
+.currday {
+    background: rgb(148,208,241);
+}
+
+.pending {
+    background: rgb(255,255,74);
+}
+
+#rowdown {
+    padding-top: 30px;
+}
